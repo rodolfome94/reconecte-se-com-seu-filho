@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Reconecte-se com Seu Filho | E-book Oficial</title>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&family=Playfair+Display:wght@600&display=swap');
+    
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+
+    body {
+      font-family: 'Poppins', sans-serif;
+      background-color: #fff6f7;
+      color: #333;
+      overflow-x: hidden;
+    }
+
+    header {
+      position: relative;
+      height: 90vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      color: white;
+      overflow: hidden;
+    }
+
+    header video {
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      z-index: -1;
+      filter: brightness(70%);
+    }
+
+    header h1 {
+      font-family: 'Playfair Display', serif;
+      font-size: 3rem;
+      margin-bottom: 15px;
+      animation: fadeIn 2s ease;
+    }
+
+    header p {
+      font-size: 1.3rem;
+      max-width: 600px;
+      margin: 0 auto;
+      animation: fadeIn 3s ease;
+    }
+
+    section {
+      padding: 60px 20px;
+      max-width: 900px;
+      margin: 0 auto;
+    }
+
+    section h2 {
+      font-family: 'Playfair Display', serif;
+      font-size: 2rem;
+      color: #a6625e;
+      text-align: center;
+      margin-bottom: 30px;
+    }
+
+    section p {
+      font-size: 1.1rem;
+      line-height: 1.8;
+      margin-bottom: 20px;
+    }
+
+    .highlight {
+      color: #d99577;
+      font-weight: 600;
+    }
+
+    .fade {
+      opacity: 0;
+      transform: translateY(20px);
+      transition: opacity 1.5s ease, transform 1.5s ease;
+    }
+
+    .fade.visible {
+      opacity: 1;
+      transform: translateY(0);
+    }
+
+    .cta {
+      text-align: center;
+      margin: 40px 0;
+    }
+
+    .cta a {
+      background: linear-gradient(90deg, #f5b36b, #d98f57);
+      color: white;
+      text-decoration: none;
+      padding: 18px 40px;
+      border-radius: 40px;
+      font-weight: 600;
+      font-size: 1.2rem;
+      transition: transform 0.2s ease;
+    }
+
+    .cta a:hover {
+      transform: scale(1.05);
+    }
+
+    .testimonials {
+      display: flex;
+      flex-direction: column;
+      gap: 25px;
+      margin-top: 40px;
+    }
+
+    .testimonial {
+      display: flex;
+      align-items: center;
+      background: #fff;
+      border-radius: 15px;
+      padding: 20px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+      gap: 15px;
+    }
+
+    .testimonial img {
+      width: 70px;
+      height: 70px;
+      border-radius: 50%;
+      object-fit: cover;
+    }
+
+    .testimonial p {
+      font-style: italic;
+      color: #555;
+      margin-bottom: 8px;
+    }
+
+    .testimonial strong {
+      color: #a6625e;
+    }
+
+    .offer {
+      background: #f5e2d9;
+      padding: 50px 20px;
+      text-align: center;
+      border-radius: 15px;
+      margin-top: 60px;
+    }
+
+    .offer h3 {
+      font-size: 1.8rem;
+      color: #a6625e;
+      margin-bottom: 10px;
+    }
+
+    .offer p {
+      font-size: 1.2rem;
+      margin-bottom: 20px;
+    }
+
+    .guarantee {
+      text-align: center;
+      background: #fff;
+      border-radius: 12px;
+      padding: 30px;
+      margin-top: 40px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.05);
+    }
+
+    .guarantee img {
+      width: 80px;
+      margin-bottom: 15px;
+    }
+
+    footer {
+      text-align: center;
+      padding: 30px;
+      background-color: #fcefee;
+      color: #777;
+      font-size: 0.9rem;
+      margin-top: 40px;
+    }
+
+    @keyframes fadeIn {
+      from { opacity: 0; transform: translateY(20px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <video autoplay muted loop>
+      <source src="https://cdn.coverr.co/videos/coverr-father-and-son-playing-together-5835/1080p.mp4" type="video/mp4">
+    </video>
+    <div>
+      <h1>O Maior Presente é Estar Presente</h1>
+      <p>Descubra como restaurar a conexão com seu filho e viver momentos de amor e presença verdadeira novamente.</p>
+    </div>
+  </header>
+
+  <section class="fade">
+    <h2>Você Também Já Sentiu Isso?</h2>
+    <p>Os dias passam, o trabalho aperta, a rotina consome... e, quando você percebe, seu filho já não olha mais nos seus olhos como antes.</p>
+    <p>A distância não é física — é emocional. E, aos poucos, ela cria um silêncio entre vocês.</p>
+    <p>Mas há uma boa notícia: é possível mudar isso. E o caminho começa dentro deste <span class="highlight">e-book transformador</span>.</p>
+  </section>
+
+  <section class="fade">
+    <h2>Por Que Estamos Nos Desconectando?</h2>
+    <p>Vivemos em um mundo acelerado, com telas, cobranças e pressa. O tempo com os filhos se tornou curto, e o amor, silencioso. Mas dentro de nós, ainda existe o desejo profundo de reconectar — de sentir novamente aquele abraço apertado e sincero.</p>
+  </section>
+
+  <section class="fade">
+    <h2>A Solução</h2>
+    <p>O e-book <strong>“Reconecte-se com Seu Filho”</strong> foi criado para pais e mães que desejam reencontrar o vínculo emocional com seus filhos, sem técnicas complicadas.</p>
+    <p>Você vai aprender <strong>como pequenas atitudes diárias</strong> e uma nova forma de comunicação podem restaurar o amor, o respeito e a alegria dentro de casa.</p>
+  </section>
+
+  <div class="cta fade">
+    <a href="https://pay.kiwify.com.br/BoT4Ab9" target="_blank">Quero Reconectar com Meu Filho</a>
+  </div>
+
+  <section class="fade">
+    <h2>Histórias Reais</h2>
+    <div class="testimonials">
+      <div class="testimonial">
+        <img src="https://randomuser.me/api/portraits/women/65.jpg" alt="Ana Paula">
+        <div>
+          <p>“Depois de aplicar o que aprendi no e-book, meu filho começou a conversar comigo de novo. Hoje ele me chama pra brincar todos os dias.”</p>
+          <strong>— Ana Paula, mãe do Lucas (6 anos)</strong>
+        </div>
+      </div>
+      <div class="testimonial">
+        <img src="https://randomuser.me/api/portraits/men/43.jpg" alt="Roberto">
+        <div>
+          <p>“Percebi que o problema não era ele... era o quanto eu estava distante. Esse e-book me abriu os olhos e o coração.”</p>
+          <strong>— Roberto, pai da Júlia (9 anos)</strong>
+        </div>
+      </div>
+      <div class="testimonial">
+        <img src="https://randomuser.me/api/portraits/women/32.jpg" alt="Camila">
+        <div>
+          <p>“Chorei em várias páginas. Era tudo o que eu precisava ler como mãe. Hoje sinto que somos uma família de verdade novamente.”</p>
+          <strong>— Camila, mãe da Sofia (5 anos)</strong>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="offer fade">
+    <h3>Oferta Especial — Apenas R$19,99</h3>
+    <p>Transforme a relação com seu filho hoje mesmo. Amor, presença e conexão ao seu alcance.</p>
+    <a href="https://pay.kiwify.com.br/BoT4Ab9" target="_blank">Garantir Meu E-book Agora</a>
+  </section>
+
+  <section class="guarantee fade">
+    <img src="https://cdn-icons-png.flaticon.com/512/3903/3903508.png" alt="Selo de Garantia">
+    <h3>Garantia de 7 Dias</h3>
+    <p>Se dentro de 7 dias você sentir que o e-book não fez diferença, devolvemos 100% do seu investimento — sem perguntas.</p>
+  </section>
+
+  <footer>
+    <p>© 2025 Reconecte-se com Seu Filho — Todos os direitos reservados.</p>
+    <p>“Pais presentes criam filhos confiantes.” 💖</p>
+  </footer>
+
+  <script>
+    // animação de fade-in suave
+    const fadeEls = document.querySelectorAll('.fade');
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) entry.target.classList.add('visible');
+      });
+    }, { threshold: 0.2 });
+    fadeEls.forEach(el => observer.observe(el));
+  </script>
+
+</body>
+</html>
